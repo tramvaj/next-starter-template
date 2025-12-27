@@ -1,28 +1,27 @@
 import React from 'react'
-import styles from './Tiles.module.css'
 
 export default function Tiles(){
   return (
     <section aria-label="Feature tiles">
-      <div className={styles.grid}>
-        <article className={styles.card}>
-          <h3>Tile One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <article className="bg-white p-5 rounded-lg shadow-sm">
+          <h3 className="text-lg font-semibold">Tile One</h3>
+          <p className="text-sm text-slate-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
         </article>
 
-        <article className={styles.card}>
-          <h3>Tile Two</h3>
-          <p>Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+        <article className="bg-white p-5 rounded-lg shadow-sm">
+          <h3 className="text-lg font-semibold">Tile Two</h3>
+          <p className="text-sm text-slate-600">Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
         </article>
 
-        <article className={styles.card}>
-          <h3>Tile Three</h3>
-          <p>Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+        <article className="bg-white p-5 rounded-lg shadow-sm">
+          <h3 className="text-lg font-semibold">Tile Three</h3>
+          <p className="text-sm text-slate-600">Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
         </article>
 
-        <article className={styles.card}>
-          <h3>Tile Four</h3>
-          <p>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
+        <article className="bg-white p-5 rounded-lg shadow-sm">
+          <h3 className="text-lg font-semibold">Tile Four</h3>
+          <p className="text-sm text-slate-600">Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
         </article>
       </div>
     </section>
